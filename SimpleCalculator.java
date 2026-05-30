@@ -9,7 +9,6 @@ public class SimpleCalculator {
         int num2 = data.nextInt();
         System.out.print("Enter the operations +, -, *, / : ");
         char ch = data.next().charAt(0);
-
         switch(ch){
             case '+':
                 System.out.print("Sum is : "+(num1+num2));
